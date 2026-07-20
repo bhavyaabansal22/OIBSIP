@@ -1,0 +1,59 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# VS Code
+.vscode/
+
+# PyCharm
+.idea/
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+desktop.ini
+
+# Python environment variables
+.env
+
+# Logs
+*.log
+
+# Build files
+build/
+dist/
+*.egg-info/
+
+# Cache
+.cache/
+
+# Temporary files
+*.tmp
+*.temp
+
+# Notebook runtime files
+*.nbconvert.ipynb
+
+# Python testing cache
+.pytest_cache/
+
+# Coverage reports
+.coverage
+htmlcov/
+
+# Generated files (optional)
+*.xlsx
+*.xls
+
+# google_playstore_cleaned.csv
