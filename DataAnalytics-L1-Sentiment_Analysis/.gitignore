@@ -39,10 +39,6 @@ dist/
 temp/
 tmp/
 
-# Generated files (optional)
-*.png
-*.jpg
-
 # Model files
 *.pkl
 
