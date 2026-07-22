@@ -10,9 +10,38 @@ The objective of this project is to build a Machine Learning model capable of au
 
 ## Dataset
 
-**Dataset:** Amazon Reviews Dataset
+The dataset used in this project is **not included** in this repository due to its large file size.
 
-The dataset contains customer reviews along with review scores.
+**Dataset:** Amazon Product Reviews
+
+**Source:** Kaggle  
+https://www.kaggle.com/datasets/arhamrumi/amazon-product-reviews
+
+### Project Setup
+
+1. Download the dataset from the Kaggle link above.
+2. Create a folder named `data` inside the project directory.
+3. Place the downloaded file in the `data` folder as shown below:
+
+```
+DataAnalytics-L1-Sentiment_Analysis/
+│
+├── data/
+│   └── Reviews.csv
+│
+├── notebook.ipynb
+├── README.md
+├── requirements.txt
+└── images/
+```
+
+The notebook expects the dataset at the following path:
+
+```python
+data/Reviews.csv
+```
+
+> **Note:** The dataset has been excluded from this repository because it exceeds GitHub's recommended file size limits. Please download it from the Kaggle source before running the notebook.
 
 ### Features
 
