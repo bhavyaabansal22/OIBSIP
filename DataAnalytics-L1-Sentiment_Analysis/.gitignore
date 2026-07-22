@@ -1,0 +1,50 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environment
+venv/
+env/
+.venv/
+myenv/
+myenv3/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# VS Code
+.vscode/
+
+# System Files
+.DS_Store
+Thumbs.db
+
+# Python cache
+*.pyo
+*.pyd
+
+# Build files
+build/
+dist/
+*.egg-info/
+
+# Environment Variables
+.env
+
+# Logs
+*.log
+
+# Temporary files
+temp/
+tmp/
+
+# Generated files (optional)
+*.png
+*.jpg
+
+# Model files
+*.pkl
+
+# Dataset
+data/*.csv
