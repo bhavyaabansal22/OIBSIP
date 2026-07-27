@@ -1,0 +1,40 @@
+# Jupyter
+.ipynb_checkpoints/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual Environment
+venv/
+env/
+.venv/
+
+# VS Code
+.vscode/
+
+# Spyder
+.spyproject/
+
+# PyCharm
+.idea/
+
+# Operating System
+.DS_Store
+Thumbs.db
+
+# Temporary Files
+*.log
+*.tmp
+
+# Python Cache
+.pytest_cache/
+
+# Build Files
+build/
+dist/
+*.egg-info/
+
+# Environment Variables
+.env
