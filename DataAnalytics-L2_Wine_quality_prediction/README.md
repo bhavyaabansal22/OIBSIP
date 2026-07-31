@@ -143,6 +143,8 @@ Alcohol content was found to be the strongest predictor of wine quality.
 
 Data Analytics Intern
 
+Oasis Infobyte
+
 ---
 
 ## ⭐ If you found this project useful, consider giving it a star!
