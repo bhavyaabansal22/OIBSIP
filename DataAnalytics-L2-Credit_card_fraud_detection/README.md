@@ -1,14 +1,14 @@
 <h1 align="center">
-💳 Fraud Transaction Detection using Machine Learning
+💳 Fraud Transaction Detection
 </h1>
 
 <p align="center">
-Detecting Financial Fraud using Machine Learning & SMOTE
+Machine Learning Pipeline for Detecting Fraudulent Financial Transactions
 </p>
 
 <p align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=Poppins&weight=600&size=22&duration=3000&pause=1200&color=1F6FEB&center=true&vCenter=true&width=650&lines=Fraud+Detection+using+Machine+Learning;Handling+Imbalanced+Datasets+with+SMOTE;Logistic+Regression+%7C+Random+Forest;Precision+%7C+Recall+%7C+ROC-AUC" />
+<img src="https://readme-typing-svg.demolab.com?font=Poppins&weight=600&size=22&pause=1000&color=2563EB&center=true&vCenter=true&width=700&lines=Imbalanced+Classification;SMOTE+Oversampling;Logistic+Regression+%7C+Random+Forest;Precision+%7C+Recall+%7C+ROC-AUC"/>
 
 </p>
 
