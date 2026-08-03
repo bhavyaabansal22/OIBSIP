@@ -1,145 +1,157 @@
-# 💳 Fraud Transaction Detection using Machine Learning
+![Visitors](https://komarev.com/ghpvc/?username=YOUR_GITHUB_USERNAME&color=blue&style=for-the-badge)
+
+![GitHub last commit](https://img.shields.io/github/last-commit/YOUR_USERNAME/YOUR_REPO?style=for-the-badge)
+
+![GitHub repo size](https://img.shields.io/github/repo-size/YOUR_USERNAME/YOUR_REPO?style=for-the-badge)
+
+![GitHub stars](https://img.shields.io/github/stars/YOUR_USERNAME/YOUR_REPO?style=for-the-badge)
+<h1 align="center">
+💳 Fraud Transaction Detection using Machine Learning
+</h1>
+
+<p align="center">
+Detecting Financial Fraud using Machine Learning & SMOTE
+</p>
 
 <p align="center">
 
-![Python](https://img.shields.io/badge/Python-3.11+-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Pandas](https://img.shields.io/badge/Pandas-Data%20Analysis-150458?style=for-the-badge&logo=pandas&logoColor=white)
-![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-Machine%20Learning-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white)
-![Imbalanced-Learn](https://img.shields.io/badge/Imbalanced--Learn-SMOTE-blue?style=for-the-badge)
-![Status](https://img.shields.io/badge/Status-Completed-success?style=for-the-badge)
+<img src="https://readme-typing-svg.demolab.com?font=Poppins&weight=600&size=22&duration=3000&pause=1200&color=1F6FEB&center=true&vCenter=true&width=650&lines=Fraud+Detection+using+Machine+Learning;Handling+Imbalanced+Datasets+with+SMOTE;Logistic+Regression+%7C+Random+Forest;Precision+%7C+Recall+%7C+ROC-AUC" />
 
 </p>
 
 ---
 
-## 📖 Project Overview
+<p align="center">
 
-Financial fraud detection is one of the most critical applications of machine learning in the banking and fintech industries. Since fraudulent transactions account for only a tiny fraction of all transactions, the problem becomes a **highly imbalanced binary classification task**.
+<img src="YOUR-FRAUD-DETECTION-GIF-LINK-HERE" width="700">
 
-This project builds a complete **machine learning pipeline** to identify fraudulent financial transactions while addressing class imbalance using **SMOTE (Synthetic Minority Oversampling Technique)**.
+</p>
 
-Two classification models—**Logistic Regression** and **Random Forest Classifier**—were trained and evaluated using industry-recommended metrics such as **Precision, Recall, F1-Score, and ROC-AUC**.
+---
+
+## 📌 Project Overview
+
+Financial fraud detection is one of the most important applications of Machine Learning in the banking and fintech industries.
+
+Since fraudulent transactions make up only **1.51%** of all transactions, traditional classification models struggle to identify fraud effectively.
+
+This project develops a complete **Machine Learning Pipeline** capable of detecting fraudulent financial transactions while addressing severe class imbalance using **SMOTE (Synthetic Minority Oversampling Technique).**
+
+Two machine learning models were compared:
+
+- 📈 Logistic Regression
+- 🌳 Random Forest Classifier
+
+using industry-standard evaluation metrics such as Precision, Recall, F1-Score and ROC-AUC.
+
+---
+
+# 🚀 Tech Stack
+
+<p align="center">
+
+<img src="https://skillicons.dev/icons?i=python" height="55">
+<img src="https://cdn.simpleicons.org/pandas/150458" height="55">
+<img src="https://cdn.simpleicons.org/numpy/013243" height="55">
+<img src="https://cdn.simpleicons.org/scikitlearn/F7931E" height="55">
+<img src="https://cdn.simpleicons.org/jupyter/F37626" height="55">
+
+</p>
 
 ---
 
 # 🎯 Objectives
 
-- Detect fraudulent financial transactions using Machine Learning.
-- Understand and analyze severe class imbalance.
-- Handle minority-class imbalance using **SMOTE**.
-- Compare multiple classification algorithms.
-- Evaluate models using appropriate metrics instead of relying only on Accuracy.
-- Interpret important features influencing fraud detection.
-- Discuss scalability for real-world banking systems.
+✔ Detect fraudulent transactions
 
----
+✔ Handle severe class imbalance
 
-# 📂 Dataset Information
+✔ Apply SMOTE oversampling
 
-The dataset consists of **10,000 financial transactions** with the following features:
+✔ Compare Logistic Regression & Random Forest
 
-| Feature | Description |
-|----------|-------------|
-| transaction_id | Unique transaction ID |
-| amount | Transaction amount |
-| transaction_hour | Hour when transaction occurred |
-| merchant_category | Merchant category |
-| foreign_transaction | Whether transaction was international |
-| location_mismatch | Customer location mismatch |
-| device_trust_score | Trust score of user's device |
-| velocity_last_24h | Number of recent transactions |
-| cardholder_age | Customer age |
-| is_fraud | Target Variable |
+✔ Evaluate using Precision, Recall, F1-Score & ROC-AUC
+
+✔ Analyze feature importance
+
+✔ Discuss real-world scalability
 
 ---
 
 # 📊 Dataset Summary
 
-| Metric | Value |
-|---------|------:|
+| Item | Value |
+|------|------:|
 | Total Transactions | 10,000 |
 | Legitimate Transactions | 9,849 |
 | Fraudulent Transactions | 151 |
-| Fraud Percentage | **1.51%** |
-
-> **Observation:** The dataset is highly imbalanced, making fraud detection significantly more challenging than a standard classification problem.
+| Fraud Rate | **1.51%** |
 
 ---
 
-# 🛠️ Tech Stack
+# ⚡ Machine Learning Workflow
 
-- Python
-- Pandas
-- NumPy
-- Matplotlib
-- Seaborn
-- Scikit-learn
-- Imbalanced-learn (SMOTE)
-- Jupyter Notebook
+```text
+Financial Transactions
+          │
+          ▼
+ Data Cleaning & EDA
+          │
+          ▼
+ Feature Engineering
+          │
+          ▼
+ Train-Test Split
+ (Stratified)
+          │
+          ▼
+ One-Hot Encoding
+          │
+          ▼
+      SMOTE
+          │
+          ▼
+ Model Training
+    ┌─────────────┐
+    │             │
+    ▼             ▼
+ Logistic     Random Forest
+ Regression
+    │             │
+    └──────┬──────┘
+           ▼
+   Model Evaluation
+           │
+           ▼
+ Feature Importance
+```
 
 ---
 
 # 📈 Exploratory Data Analysis
 
-The following analyses were performed:
+The project includes:
 
-- ✅ Class distribution analysis
-- ✅ Fraud percentage calculation
-- ✅ Distribution of transaction amounts
-- ✅ Fraud vs Non-Fraud comparison
-- ✅ Transaction hour analysis
-- ✅ Correlation analysis
-- ✅ Feature distribution visualization
+📌 Class imbalance visualization
 
----
+📌 Transaction amount comparison
 
-# ⚙️ Machine Learning Pipeline
+📌 Fraud vs Non-Fraud distribution
 
-```
-                 Raw Dataset
-                      │
-                      ▼
-              Data Preprocessing
-                      │
-       ┌──────────────┴──────────────┐
-       │                             │
- One-Hot Encoding            Missing Value Handling
-       │                             │
-       └──────────────┬──────────────┘
-                      ▼
-              Train-Test Split
-           (Stratified Sampling)
-                      │
-                      ▼
-                   SMOTE
-     (Training Set Only - Balancing)
-                      │
-                      ▼
-            Model Training
-      ┌────────────────────────┐
-      │                        │
-      ▼                        ▼
-Logistic Regression     Random Forest
-      │                        │
-      └──────────────┬─────────┘
-                     ▼
-          Model Evaluation
-                     │
-                     ▼
-        Feature Importance Analysis
-```
+📌 Time-of-day fraud analysis
+
+📌 Correlation analysis
+
+📌 Feature relationship analysis
 
 ---
 
-# 🤖 Models Implemented
+# 🤖 Models Used
 
-### 1️⃣ Logistic Regression
-
-A linear classification algorithm used as the baseline model for fraud detection.
-
-### 2️⃣ Random Forest Classifier
-
-An ensemble learning algorithm that combines multiple decision trees to improve prediction performance.
+| Model | Purpose |
+|--------|---------|
+| Logistic Regression | Baseline linear classifier |
+| Random Forest | Ensemble learning classifier |
 
 ---
 
@@ -150,125 +162,117 @@ An ensemble learning algorithm that combines multiple decision trees to improve 
 | Accuracy | 97% | **99%** |
 | Precision | 30% | **94%** |
 | Recall | **93%** | 57% |
-| F1-Score | 46% | **71%** |
+| F1 Score | 46% | **71%** |
 
 ---
 
-# 📈 Key Findings
+# 🎯 Key Insights
 
-### Logistic Regression
+🟢 Logistic Regression
 
-- Very high Recall (93%)
-- Successfully detected most fraud cases
-- Generated more false positives
-- Suitable when missing fraud is costly
-
-### Random Forest
-
-- Excellent Precision (94%)
-- Highest overall F1-Score
-- Produced fewer false alarms
-- Better balance between fraud detection and customer convenience
+- Excellent Recall
+- Detects most fraud cases
+- Higher False Positives
 
 ---
 
-# 📉 Why Accuracy is Misleading?
+🟢 Random Forest
 
-With only **1.51% fraudulent transactions**, a model that predicts every transaction as **Non-Fraud** would still achieve approximately **98.5% Accuracy** while completely failing to detect fraud.
+- Excellent Precision
+- Better F1 Score
+- Fewer False Positives
+- Better overall balance
 
-Therefore, the following metrics were used instead:
+---
+
+# 📉 Why Accuracy Isn't Enough?
+
+Because only **1.51%** of transactions are fraudulent,
+
+a model predicting **every transaction as legitimate** would still achieve nearly **98.5% Accuracy** while completely failing its actual purpose.
+
+Therefore this project focuses on
 
 - Precision
 - Recall
 - F1-Score
-- ROC-AUC Score
+- ROC-AUC
 
-These metrics provide a much more reliable assessment of fraud detection performance.
-
----
-
-# 📌 ROC-AUC Analysis
-
-The models achieved an excellent ROC-AUC score, indicating a strong ability to distinguish fraudulent transactions from legitimate ones across different classification thresholds.
-
-ROC-AUC is particularly useful for evaluating imbalanced datasets because it measures ranking performance rather than relying on a single prediction threshold.
+instead of Accuracy alone.
 
 ---
 
 # 🔍 Feature Importance
 
-Feature importance analysis was performed to identify the variables that contributed most to fraud prediction.
+The trained models were analyzed to identify the most influential features contributing to fraud prediction.
 
-This helps:
+Feature importance provides:
 
-- Improve model interpretability
-- Understand fraud patterns
-- Support business decision-making
-- Identify key fraud indicators
-
----
-
-# 🚀 Scalability Discussion
-
-To process **millions of transactions per hour**, this solution could be extended using:
-
-- Apache Kafka for real-time data streaming
-- Apache Spark for distributed processing
-- Distributed Machine Learning
-- REST APIs for deployment
-- Cloud-based infrastructure
-- Continuous model monitoring and retraining
+- Better model interpretability
+- Business insights
+- Fraud pattern understanding
+- Explainable machine learning
 
 ---
 
-# 📚 Skills Demonstrated
+# 🌍 Real-World Scalability
 
-- Data Cleaning
-- Exploratory Data Analysis
-- Handling Imbalanced Datasets
-- One-Hot Encoding
-- SMOTE Oversampling
-- Machine Learning Pipelines
-- Logistic Regression
-- Random Forest
-- Model Evaluation
-- ROC-AUC Analysis
-- Feature Importance
-- Business Interpretation of ML Results
+To process **1 Million+ transactions per hour**, this pipeline can be extended using:
+
+- Apache Kafka
+- Apache Spark
+- Cloud Deployment
+- REST APIs
+- Batch + Stream Processing
+- Continuous Monitoring
+
+---
+
+# 💡 Key Learnings
+
+✅ Handling Imbalanced Data
+
+✅ SMOTE Oversampling
+
+✅ Machine Learning Pipelines
+
+✅ One-Hot Encoding
+
+✅ Logistic Regression
+
+✅ Random Forest
+
+✅ ROC-AUC Analysis
+
+✅ Precision–Recall Trade-off
+
+✅ Feature Importance
 
 ---
 
 # 🔮 Future Improvements
 
-- XGBoost & LightGBM
-- Hyperparameter Tuning
+- XGBoost
+- LightGBM
 - Threshold Optimization
-- Cost-Sensitive Learning
-- Explainable AI (SHAP & LIME)
+- Explainable AI (SHAP)
 - Real-Time Fraud Detection Dashboard
-- Deep Learning-based Fraud Detection
+- Hyperparameter Tuning
 
 ---
 
-# 📝 Conclusion
+# 👨‍💻 Author
 
-This project successfully demonstrated how machine learning can be used to detect fraudulent financial transactions despite severe class imbalance.
-
-Using **SMOTE** significantly improved the model's ability to learn fraud patterns, while appropriate evaluation metrics such as **Precision, Recall, F1-Score, and ROC-AUC** provided a more meaningful assessment than Accuracy alone.
-
-Logistic Regression prioritized detecting almost all fraudulent transactions through a high Recall, whereas Random Forest achieved a stronger balance between detecting fraud and minimizing false alarms through higher Precision and F1-Score.
-
-Overall, the project provided valuable experience in preprocessing imbalanced datasets, building end-to-end machine learning pipelines, evaluating classification models, and understanding the practical challenges involved in real-world fraud detection systems.
-
----
-
-## 👨‍💻 Author
-
-**Bhavyaa Bansal**
+### **Bhavyaa Bansal**
 
 **Data Analytics Intern**
 
 **Oasis Infobyte**
 
 ---
-⭐ *If you found this project helpful, consider giving it a star!*
+
+<p align="center">
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:1F6FEB,100:7F5AF0&height=120&section=footer"/>
+
+</p>
