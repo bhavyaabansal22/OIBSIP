@@ -1,10 +1,3 @@
-![Visitors](https://komarev.com/ghpvc/?username=YOUR_GITHUB_USERNAME&color=blue&style=for-the-badge)
-
-![GitHub last commit](https://img.shields.io/github/last-commit/YOUR_USERNAME/YOUR_REPO?style=for-the-badge)
-
-![GitHub repo size](https://img.shields.io/github/repo-size/YOUR_USERNAME/YOUR_REPO?style=for-the-badge)
-
-![GitHub stars](https://img.shields.io/github/stars/YOUR_USERNAME/YOUR_REPO?style=for-the-badge)
 <h1 align="center">
 💳 Fraud Transaction Detection using Machine Learning
 </h1>
@@ -23,7 +16,7 @@ Detecting Financial Fraud using Machine Learning & SMOTE
 
 <p align="center">
 
-<img src="YOUR-FRAUD-DETECTION-GIF-LINK-HERE" width="700">
+<!-- <img src="YOUR-FRAUD-DETECTION-GIF-LINK-HERE" width="700"> -->
 
 </p>
 
