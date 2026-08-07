@@ -1,0 +1,64 @@
+# ===============================
+# Python
+# ===============================
+
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Virtual Environment
+venv/
+env/
+.venv/
+
+# VS Code
+.vscode/
+
+# PyCharm
+.idea/
+
+# Mac
+.DS_Store
+
+# Logs
+*.log
+
+# Build
+build/
+dist/
+*.egg-info/
+
+# ===============================
+# Large datasets
+# ===============================
+
+data/scraped_data.txt
+data/*.txt
+data/*.csv
+data/*.json
+!data/sample_data.txt
+!data/README.md
+
+# Large files
+*.zip
+*.7z
+*.tar
+*.gz
+
+# Model files
+*.pkl
+*.pickle
+
+# Cache
+.cache/
+
+# Temporary
+*.tmp
+
+**/data/
+*.txt
