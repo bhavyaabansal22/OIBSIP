@@ -430,27 +430,6 @@ Every project in this repository follows a **consistent documentation standard**
 
 <br/>
 
-<!-- ═══════════════════════════════ ROADMAP ═══════════════════════════════ -->
-
-## 🗺️ Future Roadmap
-
-<table align="center">
-<tr>
-<td align="center" width="25%">🗄️<br/><b>Advanced SQL</b></td>
-<td align="center" width="25%">⚡<br/><b>Apache Spark</b></td>
-<td align="center" width="25%">🧱<br/><b>Databricks</b></td>
-<td align="center" width="25%">📊<br/><b>Power BI Mastery</b></td>
-</tr>
-<tr>
-<td align="center" width="25%">🧠<br/><b>Deep Learning</b></td>
-<td align="center" width="25%">📄<br/><b>Research Publication</b></td>
-<td align="center" width="25%">☁️<br/><b>Cloud Deployment</b></td>
-<td align="center" width="25%">🗃️<br/><b>Big Data Systems</b></td>
-</tr>
-</table>
-
-<br/>
-
 <!-- ═══════════════════════════════ CONNECT ═══════════════════════════════ -->
 
 ## 📬 Connect With Me
