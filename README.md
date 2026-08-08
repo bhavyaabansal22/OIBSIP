@@ -174,7 +174,7 @@ Solving problems that mirror on-the-job scenarios
 ```
 oasis-infobyte-data-analytics-internship/
 │
-├── 📁 Task-01-[Cleaning_Data]/
+├── 📁 Task-01-[EDARetailsSales]/
 │   ├── 📓 notebook.ipynb
 │   ├── 📊 dataset/
 │   ├── 🖼️ screenshots/
@@ -185,7 +185,7 @@ oasis-infobyte-data-analytics-internship/
 ├── 📁 Task-02- [Customer_Segmentation_Analysis]/
 │   └── ...
 │
-├── 📁 Task-03-[EDA_RetailsSales]/
+├── 📁 Task-03-[Cleaning_Data]/
 │   └── ...
 │
 ├── 🎨 assets/
